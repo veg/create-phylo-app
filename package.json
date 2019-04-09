@@ -1,0 +1,26 @@
+{
+  "name": "create-phylo-app",
+  "version": "0.1.0",
+  "description": "example app",
+  "main": "index.js",
+  "keywords": [
+    "phylogenetics",
+    "phylogeny",
+    "d3",
+    "branching",
+    "tree"
+  ],
+  "bin": {
+    "example": "example.js"
+  },
+  "author": "iGEM",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "phylotree": "1.0.0-alpha.11"
+  },
+  "scripts": {
+    "test": "./example.js -n ./data/Flu_PB2.nwk.txt"
+  }
+
+}
