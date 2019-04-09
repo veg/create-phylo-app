@@ -12,8 +12,8 @@ git clone --branch 1.0.0-alpha git@github.com:veg/phylotree.js.git
 cd phylotree.js
 yarn
 yarn link
+cd ../create-phylo-app/
 yarn link phylotree
-yarn dev
 ```
 
 ## Return to create-phylo-app and run example
